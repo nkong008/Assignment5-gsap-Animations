@@ -42,7 +42,7 @@ div#container header ul li:hover a {
   color: rgb(255, 255, 255);
 }
 
-div#container-2 {
+div#container-1 {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -50,53 +50,53 @@ div#container-2 {
   justify-content: center;
   background-color: rgb(210, 223, 198);
 }
-div#container-2 svg#design1 {
+div#container-1 svg#design1 {
   height: 60%;
 }
-div#container-2 .cls-1 {
+div#container-1 .cls-1 {
   fill: #262262;
 }
-div#container-2 .cls-1,
-div#container-2 .cls-2,
-div#container-2 .cls-3,
-div#container-2 .cls-4,
-div#container-2 .cls-5,
-div#container-2 .cls-6,
-div#container-2 .cls-7,
-div#container-2 .cls-8,
-div#container-2 .cls-9,
-div#container-2 .cls-10 {
+div#container-1 .cls-1,
+div#container-1 .cls-2,
+div#container-1 .cls-3,
+div#container-1 .cls-4,
+div#container-1 .cls-5,
+div#container-1 .cls-6,
+div#container-1 .cls-7,
+div#container-1 .cls-8,
+div#container-1 .cls-9,
+div#container-1 .cls-10 {
   opacity: 0.25;
 }
-div#container-2 .cls-2 {
+div#container-1 .cls-2 {
   fill: #39b54a;
 }
-div#container-2 .cls-3 {
+div#container-1 .cls-3 {
   fill: #2bb673;
 }
-div#container-2 .cls-4 {
+div#container-1 .cls-4 {
   fill: #2b3990;
 }
-div#container-2 .cls-5 {
+div#container-1 .cls-5 {
   fill: #27aae1;
 }
-div#container-2 .cls-6 {
+div#container-1 .cls-6 {
   fill: #1c75bc;
 }
-div#container-2 .cls-7 {
+div#container-1 .cls-7 {
   fill: #662d91;
 }
-div#container-2 .cls-8 {
+div#container-1 .cls-8 {
   fill: #00a79d;
 }
-div#container-2 .cls-9 {
+div#container-1 .cls-9 {
   fill: #006838;
 }
-div#container-2 .cls-10 {
+div#container-1 .cls-10 {
   fill: #009444;
 }
 
-div#container-3 {
+div#container-2 {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -104,10 +104,10 @@ div#container-3 {
   justify-content: center;
   background-color: rgb(0, 0, 0);
 }
-div#container-3 svg#city {
+div#container-2 svg#city {
   height: 60%;
 }
-div#container-3 svg#city .cls-1 {
+div#container-2 svg#city .cls-1 {
   fill: none;
   stroke: #fff;
   stroke-miterlimit: 10;
@@ -117,36 +117,38 @@ div#container-3 svg#city .cls-1 {
   -webkit-animation: 17s letterAnimate forwards;
           animation: 17s letterAnimate forwards;
 }
-div#container-3 svg#city .cls-2 {
+div#container-2 svg#city .cls-2 {
   fill: #f9ed32;
 }
-div#container-3 svg#city .cls-3 {
+div#container-2 svg#city .cls-3 {
   fill: #00a79d;
   opacity: 0.5;
 }
-div#container-3 svg#city .cls-4 {
+div#container-2 svg#city .cls-4 {
   fill: #2b3990;
 }
-div#container-3 svg#city .cls-4,
-div#container-3 svg#city .cls-5 {
+div#container-2 svg#city .cls-4,
+div#container-2 svg#city .cls-5 {
   opacity: 0.75;
 }
-div#container-3 svg#city .cls-5 {
+div#container-2 svg#city .cls-5 {
   fill: #1c75bc;
 }
-@-webkit-keyframes letterAnimate {
-  from {
-    stroke-dashoffset: 300;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
+
+div#container-3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
 }
-@keyframes letterAnimate {
-  from {
-    stroke-dashoffset: 300;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
+div#container-3 svg#bird {
+  height: 80%;
+}
+div#container-3 svg#bird .cls-1 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 1px;
 }/*# sourceMappingURL=style.css.map */
